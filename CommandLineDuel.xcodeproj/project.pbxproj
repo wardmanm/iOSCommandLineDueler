@@ -10,6 +10,7 @@
 		1475464319113E1800D526E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1475464219113E1800D526E0 /* Foundation.framework */; };
 		1475464619113E1800D526E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475464519113E1800D526E0 /* main.m */; };
 		1475464A19113E1800D526E0 /* CommandLineDuel.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1475464919113E1800D526E0 /* CommandLineDuel.1 */; };
+		1475465219113E4900D526E0 /* console.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475465119113E4900D526E0 /* console.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		1475464519113E1800D526E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1475464819113E1800D526E0 /* CommandLineDuel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommandLineDuel-Prefix.pch"; sourceTree = "<group>"; };
 		1475464919113E1800D526E0 /* CommandLineDuel.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CommandLineDuel.1; sourceTree = "<group>"; };
+		1475465019113E4200D526E0 /* console.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
+		1475465119113E4900D526E0 /* console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = console.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		1475464419113E1800D526E0 /* CommandLineDuel */ = {
 			isa = PBXGroup;
 			children = (
+				1475465119113E4900D526E0 /* console.m */,
+				1475465019113E4200D526E0 /* console.h */,
 				1475464519113E1800D526E0 /* main.m */,
 				1475464919113E1800D526E0 /* CommandLineDuel.1 */,
 				1475464719113E1800D526E0 /* Supporting Files */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1475464619113E1800D526E0 /* main.m in Sources */,
+				1475465219113E4900D526E0 /* console.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
